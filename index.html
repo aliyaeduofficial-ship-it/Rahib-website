@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahib's World | Resilience & Growth</title>
+    <style>
+        /* Professional CSS Styling */
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #ecf0f1;
+            --accent-color: #3498db;
+            --text-dark: #333;
+            --text-light: #7f8c8d;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            color: var(--text-dark);
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+
+        /* Header/Navbar */
+        header {
+            background: #fff;
+            padding: 1rem 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.5rem;
+            color: var(--primary-color);
+            text-align: center;
+            letter-spacing: 2px;
+        }
+
+        /* Hero Section */
+        #hero {
+            background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(44, 62, 80, 0.8)), url('your-background-image.jpg') no-repeat center center/cover;
+            height: 60vh;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        #hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        #hero p {
+            font-style: italic;
+            font-size: 1.2rem;
+            max-width: 700px;
+        }
+
+        /* Content Sections */
+        section {
+            padding: 40px 0;
+            background: #fff;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+        }
+
+        .section-title {
+            text-align: center;
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--accent-color);
+            display: inline-block;
+            margin-bottom: 25px;
+            padding-bottom: 5px;
+        }
+
+        .content-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            align-items: center;
+        }
+
+        /* Quote Box */
+        .quote-card {
+            background: var(--secondary-color);
+            border-left: 5px solid var(--accent-color);
+            padding: 20px;
+            margin: 20px 0;
+            font-style: italic;
+        }
+
+        /* Skill Badges */
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .skill-tag {
+            background: var(--accent-color);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: var(--primary-color);
+            color: white;
+            margin-top: 50px;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .content-grid {
+                grid-template-columns: 1fr;
+            }
+            .container {
+                width: 95%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>RAHIB'S WORLD</h1>
+        </div>
+    </header>
+
+    <section id="hero">
+        <h2>From Pain to Purpose</h2>
+        <p>“Some people don’t just grow with time... they grow through pain, silence, and responsibilities.”</p>
+    </section>
+
+    <div class="container">
+        
+        <section id="about">
+            <div style="text-align: center;">
+                <h2 class="section-title">Introduction</h2>
+            </div>
+            <p>Welcome to <strong>Rahib's World</strong>—a place where life is not perfect, but real. This is a journey of a student in Accounting and Finance, navigating the complexities of life, building a future even when the weight feels heavy.</p>
+        </section>
+
+        <section id="journey">
+            <div class="content-grid">
+                <div>
+                    <h2 class="section-title">My Study Journey</h2>
+                    <p>My academic path took an unexpected turn after my father's passing. While my initial dream was to pursue medicine (MBBS), life redirected me toward <strong>Accounting & Finance</strong>. This shift wasn't easy, but it taught me that success is about resilience, not just a specific field.</p>
+                    <div class="quote-card">
+                        "My father was my foundation. Losing him meant rebuilding my dreams from the ground up."
+                    </div>
+                </div>
+                <div>
+                    <img src="https://via.placeholder.com/500x350" alt="Professional Journey" style="width:100%; border-radius: 8px;">
+                </div>
+            </div>
+        </section>
+
+        <section id="battle" style="background-color: #fcfcfc;">
+            <div style="text-align: center;">
+                <h2 class="section-title">Growth Through Adversity</h2>
+            </div>
+            <div class="container">
+                <p>Fighting silent battles like anxiety and depression has been part of my reality for two years. However, these hardships haven't stopped me—they've made me more mature and focused. I am currently enhancing my professional toolkit:</p>
+                <div class="skills">
+                    <span class="skill-tag">Advanced Excel</span>
+                    <span class="skill-tag">Financial Accounting</span>
+                    <span class="skill-tag">Freelancing</span>
+                    <span class="skill-tag">Strategic Planning</span>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Rahib's World. All Rights Reserved.</p>
+        <p><small>Building success through silent strength.</small></p>
+    </footer>
+
+</body>
+</html>
